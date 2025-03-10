@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/login.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>login</title>
+    
+</head>
+<body>
+    <section>
+        <div id="nav">
+            <a href="./spotify.html"><img id="spotl" src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White-768x230.png" alt=""></a>
+        </div>
+        <div id="main">
+                <h1>Log in to Spotify</h1>
+                <div id="way">
+                <div id="google" class="ways"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAABGlBMVEUACgHsQjU0qFVChfb6vAUAAABDh/oABwA3bL4AAwA3ar30RDcMFiJCgu82rlgABQD/vQAmbjnmQTW5Ni0AAAX7wQARDgpDFxTWPjGAJx9tIhxHFxQ4FA/BOC0gDgmMawzpsQ28jg6mfgzKmQ8TEgh3Wws8LwtHOQlOPAkbNVozn1AiZTQLGg0ujUc0q0YVOB0qfkEgWzAQKhYZRiUpEQuaLiSsMilcHRZQGhWPKyQOHALpdyj1lxvuUzFgSQ7vcin4qxLwaSzyjSAvJgj2hCQxX6g8ddMWKkYSHy+atjplrUomS4PQuCKstDB1rkVJq1G/tSuMrT4SGTIjaCU+lb86nJw2pW0+ksw7mK44oYBAjOE6npRBiegzcp8Z4dg/AAAEYklEQVRogeWZaXfaRhSGhdBlIsuMBEQgZEPTpElTsQljwE6XpIuXtknTdF///9/oSIA0mkWMhOjpOb0ffIyP5tHrd+6iEZr2fwgUR/VYEwC6572zs955l/xqVnULBOalv+x47VqtZlnkR9vrLP2hDQffAIHtrzzLiqlJRJ+91RodxDdh3WlnufQd2qteaTzYfU9G3vE9H9kl0Aj67Vzylu/5xdWDr4Le4K+gENocDhTRMX5lFxAP/XyvOXp7rSoemZ1C6Bi/VKPbl15hNqEPugps86xdHB1rN/ez16XQNauzf0/NdQlLYvZ+z+2zsrr3e4IuS/qtoFszvaPp1iAvv5Oua7EFpqa7L2WT9koGxFXv/Lx35S8HmTasxEZDGZs07iubjLZofpIfpmmvVzUrYSt4ooGkV1lenxs5CLrXm66ppFtDvpBt1fqmUBqgpaWqWwNhFlqDoXQ19Dw13Rpci4TnNzuErpX6uP3iYxHb3yNMbUbAe+4nxdmK8fCR4RqfHocNn7kGiZcZ9nU1bA2eOBGctsYaVMRGXWMT7qvUmmE1bA2euju68fnOFKXqUIG/7xi7cL+I4V5VbERyJQ33VSS8X5nwL12DphNr2pUdIFLLd/ivVuJUQaAYFPwxAzfc50I4On2gFCcfpcu3WU7HQ6Et6LTZUIqbFJ7ZzyicJxJXTpt1lWjcUnBWt/v4MHi9may3P+DgTw+Fn+5shWcs3BHvpzq8frcrE/iQ3c/D4Um6wHMuWZ4dCG/8S/DqbaHgR9jQBH6EVEyz5QhFVL9P2kfl5V9vpk80RRqXGpzqLQVabl3cBRk23bi4YeF8HUrgJ8K4ZeFUy2XGnON+o+vi9xySSXTDSG98m8KzA9p5res6HhV4JAJO+R013ulHC+eNHkWg/orGvGM9r9PKUtMd47uYXUQ678otvTapUef1W30XY0U66rL5SVuuJb44b3DCxhNFOCecLv74gugR2jHe6VTgltp5h3M864oWdwDn0Vs9E3ihcnqFWw5+w6wjx5bvdTZU6HDCmdJgj0r25TuOrUBHAsMbJ9wiGGERvQV5eBDopqYQdaGAHeXMWFpNCH7g/BZsZwyfi6TrWB+BEE/azI8/8WyhcEKfCOk6DubA8glZGwV4+jPvuEg4gY/F8Eh9OMu2QXsR6tHV01/+YvH34iOJxJgtf9Kaz2YXF7PZYh5OMN5eivGvGTpT+TQ9lNMjTkTEOAFvYvobNYgkpmycDHLgspj+3kzp9/LMhYsScLLjfzT2mRLTZ2Xo+nSTk1xTYemLPNvl9D+J8YK65+jltJOcfLB/MpZ0BuO/VaYuXAQlrMGh2kSH/HwXs+fKX1qQWi2Ex8GsyGPOWNLFZJYUeqsEJGsU8ZHsou84AEYqGxs35ILoGI8IPpePy6K1eCTMQqk7eNPmD3jrQ3QtwgCz/wD5QxAuzLKqafnwYtGaBNteTm4TTFqLMTf6yvLNeLZ1yRgiw6gbf6jsK+7MPaqm/jfjH562doFwvPBVAAAAAElFTkSuQmCC" alt="">
+                <span class="con">Continue With Google</span></div>
+                <div id="face" class="ways"> <img src="https://w7.pngwing.com/pngs/295/957/png-transparent-facebook-logo-social-media-facebook-like-button-youtube-computer-icons-facebook-blue-logo-linkedin-thumbnail.png" alt="">
+                <span class="con">Continue With Facebook</span></div>
+                <div id="apple" class="ways"><img src="https://1000logos.net/wp-content/uploads/2016/10/apple-emblem.jpg" alt="">
+                    <span class="con">Continue With Apple</span>
+                </div>
+                <div class="ways"><span id="phone">Continue With Phone Number</span></div>   
+            </div>
+
+                <hr size="0.1" >
+                <div id="idp">
+                    <form id="loginForm">
+                        <h5>Email or username</h5>
+                        <div>
+
+                            <input id="loginEmail" class="user" type="text" placeholder=" Email or username" required>
+                        </div>
+                        <h5>Password</h5>
+                        <div >
+
+                            <input id="loginPassword" class="user" type="password" placeholder="Password" required>
+                        </div>
+
+                        <div id="check">
+                            <input name="ch" type="checkbox">
+                            <label for="ch">Remember me</label>
+                        </div>
+
+                        <button type="submit" id="green" class="user"><h4>Log In</h4></button>
+
+
+                    </form>
+                    <div id="forgotPasswordModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h2>Reset Password</h2>
+                            <form id="forgotPasswordForm">
+                                <h5>Email</h5>
+                                <input type="email" id="resetEmail" required>
+
+                                <h5>Current password</h5>
+                                <input type="password" id="currentPassword" required>
+
+                                <h5>New Password</h5>
+                                <input type="password" id="newPassword" required>
+
+                                <button type="submit">Reset Password</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="forgot"><p id="forgotPasswordLink">Reset Your Password</p></div>
+
+
+
+                    <script src="/static/auth.js"></script>
+
+
+
+
+                    <hr  size="0.1">
+                <div id="create">Don't have an account? <span><a href="./signup.html">Sign up for Spotify</a></span></div>
+        </div>
+    </section>
+
+
+
+
+
+
+</body>
+</html>

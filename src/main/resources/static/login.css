@@ -1,0 +1,244 @@
+*{  color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    
+        background-image: linear-gradient(rgb(33, 33, 33), black);
+      
+}
+#loginEmail,#loginPassword {
+    width: 100%;
+}
+#nav{
+    
+    height: 100px;
+    width: 1515px;;
+    background-color: black;
+}
+#spotl{
+    height: 40%;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#main{
+    
+    border: 2px solid black;
+    height: 960px;
+    width: 730px;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: black;
+    align-content: center;
+    
+}
+h1{
+    margin-left: 200px;
+    
+    margin-top: 75px;
+    font-size: 46px;
+}
+#way{
+    margin-top: 45px;
+}
+.ways{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    width: 320px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+.con{
+    position: relative;
+    bottom: 5px;
+    left: 30px;
+    font-weight: 600;
+}
+#google img {
+    height: 50%;
+    width: fit-content;
+   margin-top: 12px;
+   margin-left: 30px;
+}
+
+#face img{
+    height: 50%;
+    width: fit-content;
+   margin-top: 12px;
+   margin-left: 30px;
+   background-color: transparent;
+   border-radius: 50%;
+}
+#apple img{
+    height: 50%;
+    width: fit-content;
+   margin-top: 12px;
+   margin-left: 30px;
+   
+   border-radius: 50%;
+}
+#phone{
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 50px;
+    font-weight: 600;
+
+}
+hr{margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    width: 530px;
+    height: 0.1px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.474);
+    
+}
+.user{
+    background-color: grey;
+    border: 2px solid grey;
+    background-color:#1B1F22;
+    width: 320px;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#idp{height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+h5{
+    margin-top: 15px;
+}
+.user::placeholder{
+    font-weight: 700;
+    font-size: 16px;
+}
+#check{
+    margin-left: 210px;
+    margin-top: 20px;
+    
+    width: fit-content;
+}
+#green{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1ed760;
+    width: 324px;
+    height: 48px;
+    margin-top: 40px;
+    border-radius: 25px;
+    
+    text-align: center;
+    
+}
+h4{color: black;
+    display: inline-block;
+    margin-top: 15px;
+}
+#forgot{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 35px;
+    
+    font-weight: 400;
+    text-decoration: underline;
+}
+#create{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 45px;
+  
+    font-weight: 500;
+    color: gray;
+}
+#forgot p:hover{
+    color: #1ed760;
+    text-decoration:underline #1ed760;
+    cursor: pointer;
+}
+span a:hover{
+    color: #1ed760;
+    text-decoration:underline #1ed760;
+    
+}
+#green:hover{transform: scale(1.05);
+transition: 100ms;}
+.ways:hover{
+    cursor: pointer;
+    border-color: white;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #1B1F22 ;
+    margin: 10% auto;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+}
+.modal-content h2{
+    text-align:center;
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+#forgotPasswordForm{
+    height: 400px;
+
+}
+#forgotPasswordModal form{
+    height: 100%;
+
+
+}
+#forgotPasswordForm input{
+    width: 400px;
+    height: 30px;
+    color: #1B1F22;
+    background-color: azure;
+    font-size: 15px;
+
+}
+#forgotPasswordForm button{
+    height: 35px;
+    background-color:#1ed760 ;
+    width: 140px;
+    color: black;
+    font-size:1rem;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+button:hover{transform: scale(1.05);
+    transition: 100ms;
+    cursor:pointer;
+    border-color: white;
+}

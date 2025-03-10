@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+#main{
+   
+    
+    width: 730px;
+    height: 1300px;
+    
+    align-self: center;
+}
+#logo{
+    margin-top: 40px;
+width: fit-content;
+    
+    height: 40px;
+    
+}
+#logo img{
+    
+    height: 100%;
+}
+#head{
+    margin-top: 40px;
+    width: fit-content;
+    
+}
+#head h2{
+    letter-spacing: -0.04em;
+    line-height: 36px;
+    font-size: 2rem;
+    
+}
+.ways{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+    width: 395px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+#face{
+    margin-top: 35px;
+    
+}
+#google{
+    margin-top: 20px;
+
+}
+#face img{
+    height: 50%;
+    width: fit-content;
+   margin-top: 12px;
+   margin-left: 30px;
+   background-color: transparent;
+   border-radius: 50%;
+}
+#google img {
+    height: 50%;
+    width: fit-content;
+   margin-top: 12px;
+   margin-left: 20px;
+   border-radius: 10PX;
+}
+.con{
+    position: relative;
+    bottom: 5px;
+    left: 30px;
+    font-weight: 600;
+}
+.spann{
+    
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.622);
+    height: 1px;
+    width: 200px;
+    position: relative;
+    bottom: 4px;
+}
+
+#or{
+    width: fit-content;
+    margin-top: 20px;
+}
+#head2{
+    margin-top: 20px;
+    width: fit-content;
+
+}
+#form{
+    height: fit-content;
+    width: 450px;
+    font-size: 14px;
+
+
+}
+#r1{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    font-size: small;
+}
+#form p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+p{
+    font-size: 14px;
+    font-weight: 600;
+}
+#form input{
+    width: 450px;
+    margin-top: 10px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: medium;
+    padding-left: 20px;
+    
+}
+#form input::placeholder{
+    
+    font-size: medium;
+    font-weight: 590;
+}
+#gen{
+    width: 450px;
+    font-size: 14px;
+}
+#date{
+    
+    display: flex;
+    width: fit-content;
+    margin-left: 0px;
+    margin-top: 20px;
+    
+}
+#date input{
+    width: 50px;
+    height: 45px;
+}
+#year input{
+    width:80px ;
+}
+#month select{
+    width: 202px;
+    margin-top: 10px;
+    height: 48px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.da{
+    margin-left: 20px;
+}
+#gen{
+    margin-top: 20px;
+}
+#gen input{
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+#gen input:nth-of-type(1){
+    margin-left: 0px;
+}
+#gen input:nth-of-type(5){
+    margin-left: 0px;
+}
+#check{
+    width: 450px;
+    margin-top: 20px;
+font-size: 14px;
+    
+}
+#term{
+    margin-top: 30px;
+    width: fit-content;
+    font-size: 11px;
+}
+#pp{
+    width: 460px;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+    
+   
+
+}
+#butt1{
+    display: flex;
+}
+#signup{
+    margin-top: 20px;
+    width: 160px;
+    height: 55px;
+    background-color: #1ed760;
+    border-radius: 30px;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#acc{
+    width: fit-content;
+    margin-top: 30px;
+}
+.link{
+    text-decoration: none;
+    color: #1db954;
+}
+.link:hover{
+    color: #1ed760;
+}
+
+#signup:hover{
+    transform: scale(1.05);
+    transition: 200ms;
+    
+}
+#linkb{
+    text-decoration: none;
+    color: black;
+
+}
+.ways:hover{
+    transform: scale(1.05);
+    border: 2px solid black;
+}
+#form input:hover{
+    border: 2px solid black;
+    
+}
+#month select:hover{
+    border: 2px solid black;
+}

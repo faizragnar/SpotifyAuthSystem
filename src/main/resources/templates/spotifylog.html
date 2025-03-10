@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/spotifylog.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Spotify - Dashboard</title>
+</head>
+<body>
+
+<section id="container">
+  <div id="leftnav">
+    <div id="home">
+      <div id="ho">
+        <div id="ho1"> <i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;<h5 style="display: inline;">Home</h5></div>
+        <div id="ho2"><i class="fa fa-search"></i> &nbsp;&nbsp;<h5 style="display: inline;">Search</h5></div>
+      </div>
+    </div>
+
+    <div id="library">
+      <div id="lib1"><i class="fa fa-bookmark"></i>&nbsp;&nbsp;&nbsp; Your Library</div>
+      <div id="lib2">
+        <i id="a2" class="fa fa-plus"></i><i id="a1" class="fa fa-arrow-right"></i>
+      </div>
+      <div id="playlist">
+        <h4>Create your first playlist</h4>
+        <p>It's easy, we will help you</p>
+        <button class="b1">Create playlist</button>
+      </div>
+      <div id="podcast">
+        <h4>Let's find some podcasts to follow</h4>
+        <p>We'll keep you updated on new episodes</p>
+        <button class="b1">Browse podcasts</button>
+      </div>
+      <button id="b3"><i class="fa fa-globe"></i> English </button>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="nav">
+      <div id="nava">
+        <i id="le" class="fa fa-arrow-circle-left"></i>
+        <i id="le" class="fa fa-arrow-circle-right"></i>
+      </div>
+
+      <!-- 🔹 Profile Section Instead of Sign-in/Sign-up -->
+      <div id="profile">
+        <i class="fa fa-user-circle"></i>
+        <span id="username">Loading...</span> <!-- This will be updated with the user email -->
+        <button id="logout">Logout</button>
+      </div>
+
+    </div>
+
+    <div class="row"><h1 class="head" id="head1">Focus</h1>
+      <div class="col" data-image="/static/images/music1.jpg"></div>
+      <div class="col" data-image="/static/images/music2.jpg"></div>
+      <div class="col" data-image="/static/images/music3.jpg"></div>
+      <div class="col" data-image="/static/images/music4.jpg"></div>
+      <div class="col" data-image="/static/images/music5.jpg"></div>
+    </div>
+
+    <div class="row"><h1 class="head" id="head2">Spotify Playlists</h1>
+      <div class="col" data-image="/static/images/music6.jpg"></div>
+      <div class="col" data-image="/static/images/music7.jpg"></div>
+      <div class="col" data-image="/static/images/music8.jpg"></div>
+      <div class="col" data-image="/static/images/music9.jpg"></div>
+      <div class="col" data-image="/static/images/music10.jpg"></div>
+    </div>
+
+    <div class="row"><h1 class="head" id="head3">Sound of India</h1>
+      <div class="col" data-image="/static/images/music11.jpg"></div>
+      <div class="col" data-image="/static/images/music12.jpg"></div>
+      <div class="col" data-image="/static/images/music13.jpg"></div>
+      <div class="col" data-image="/static/images/music14.jpg"></div>
+      <div class="col" data-image="/static/images/music15.jpg"></div>
+    </div>
+
+  </div>
+</section>
+
+
+<script src="/static/auth.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".col").forEach(col => {
+      const imageUrl = col.getAttribute("data-image");
+      col.style.backgroundImage = `url('${imageUrl}')`;
+    });
+  });
+</script>
+
+</body>
+</html>
